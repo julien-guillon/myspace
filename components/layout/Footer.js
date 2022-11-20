@@ -1,12 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  fab,
-  faGithub,
-  faLinkedinIn,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import {
   faBuilding,
   faEnvelope,
   faHome,

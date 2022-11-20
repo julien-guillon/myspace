@@ -25,13 +25,18 @@ export default function Home() {
           {isDark ? (
             <FontAwesomeIcon
               icon={faLightbulb}
+              size="xl"
               onClick={() => setIsDark(false)}
             />
           ) : (
-            <FontAwesomeIcon icon={faMoon} onClick={() => setIsDark(true)} />
+            <FontAwesomeIcon
+              icon={faMoon}
+              size="xl"
+              onClick={() => setIsDark(true)} 
+            />
           )}
         </div>
-        <main className="mx-auto w-11/12 max-w-[90rem]">
+        <main className="mx-auto w-10/12">
           <Hero />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent

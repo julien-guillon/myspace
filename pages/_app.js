@@ -4,8 +4,6 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 config.autoAddCss = false;
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
-
-export default MyApp;
